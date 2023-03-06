@@ -1,0 +1,5 @@
+.sidebarRight {
+    flex: 3;
+    background-color: green;
+    height: 90vh;
+}

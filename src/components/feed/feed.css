@@ -1,0 +1,13 @@
+.feed {
+    flex: 6;
+    height: 80vh !important;
+    padding: 30px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+}
+.feedWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

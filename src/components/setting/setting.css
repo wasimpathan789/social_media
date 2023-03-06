@@ -1,0 +1,48 @@
+.setting {
+    background-color: #f7f7f7;
+    width: 100%;
+    flex: 9;
+    padding: 20px;
+}
+
+.settingWrapper {
+    border-radius: 10px;
+    background-color: white;
+    height: 400px;
+    padding: 15px;
+}
+
+.settingWrapper h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #111;
+}
+.settingGeneral {
+
+}
+.settingGeneral h3 {
+    color: #adb5bd ;
+    font-size: 0.95rem;
+}
+.accountInformation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    line-height: 1.2;
+    color: #111;
+    font-weight: 500;
+    font-size: 1rem;
+  
+}
+.settingIcons {
+    color: white;
+    border-radius: 50%;
+    background-color: #1E74FD;
+    padding: 13px;
+}
+
+.savedAddress {}

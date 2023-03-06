@@ -1,0 +1,102 @@
+.profile {
+    background-color: #f7f7f7;
+    width: 100%;
+    flex: 9;
+    padding: 20px ;  
+}
+.profileWrapper {
+    border-radius: 10px;
+    background-color: white;
+    height: 400px;
+    padding: 15px;
+}
+.profileTop {
+    width: 100%;
+}
+.profileTop img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.profileCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.profileCenterLeft img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 20px;
+}
+.profileCenterLeftName {
+    margin-left: 160px;
+}
+.profileCenterLeftName h1 {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.profileCenterLeftName span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 !important;
+    color: #adb5bd !important;
+    /* margin-top: -1.25rem !important; */
+    margin-top: -30px;    
+}
+.profileCenterRight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 23px;
+}
+.profileCenterRight button{
+    background-color:rgb(228,230,235) ;
+    border-radius: 5px;
+    /* height: 30px; */
+    border: none;
+    padding: 7px 10px;
+}
+.addFriend {
+    color: white;
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.profileBottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profileBottom ul {
+    display: flex;
+    gap: 30px;
+}
+.profileBottom ul li {
+    list-style: none;
+    color: #adb5bd;
+    /* color: red; */
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1.05rem;
+}
+.profileBottom ul li:hover {
+    color: #1877F2;
+    color: blue;
+    text-decoration: underline;
+    gap: 20px;
+
+}
+/* .profileBottom ul li a:hover{
+    color: red;
+} */
+
+

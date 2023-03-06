@@ -1,0 +1,75 @@
+.register {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    background-color: white;
+
+}
+.registerWrapper{
+    /* background: white; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.registerInput {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 0px 15px;
+    gap: 10px;
+    height: 60px;
+    line-height: 60px;
+    border: 2px #eee solid;
+    border-radius: 7px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+.registerInputName {
+    background: transparent;
+    border: none;
+    color: blue;
+    font-size: 1.05rem;
+}
+.registerInputName:focus {
+    outline: none;
+}
+.registerButton {
+    color: #eee;
+    font-size: 1.05rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    height: 60px;
+    line-height: 60px;
+    border: 2px #eee solid;
+    border-radius: 7px;
+    background-color: #343a40;
+    cursor: pointer;
+}
+.alreadyLoginText {
+    font-weight: 500;
+    color: #adb5bd ;
+    line-height: 32px;
+    font-size: 1rem;
+}
+.alreadyLoginText span {
+    color: #1E74FD;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.registerInputCheckbox {
+    font-size: 1rem;
+}
+.registerInputCheckbox span {
+    font-weight: 500;
+    color: #adb5bd  ;
+    line-height: 32px;
+    font-size: 1rem;
+    margin-left: 5px;
+}

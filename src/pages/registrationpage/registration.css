@@ -1,0 +1,41 @@
+.registration {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.registrationWrapper {
+    display: flex;
+    background: url(/public/assets/profile/login-bg.jpg);
+    background-size: cover;
+
+}
+
+.registrationLeft{
+    width: 40vw;
+    height: 100vh;
+ 
+
+    
+}
+.registrationRight{
+    width: 60vw;
+    height: 56vh;
+    background: url(/public/assets/profile/login-bg.jpg);
+    background-size: cover;
+
+}
+.registrationLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.registrationLogoIcon {
+    font-size: 2rem;
+    color: red;
+    background-color: red;
+}
+.registrationLogo h1 {
+    color: white;
+    
+}

@@ -1,0 +1,89 @@
+.email {
+    background-color:#f7f7f7;
+    width: 100%;
+    flex: 9;
+    padding: 20px;
+    overflow-y: scroll;
+
+}
+.emailWrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    height: 100%;
+    width: 97%;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.emailContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.emailContent:hover{
+    background-color: blue;
+    background-color: #e8f1fa;
+    border-radius: 5px;
+
+}
+
+.emailDot {
+    width: 10px;
+    height: 10px;
+    background-color: #10d876 !important;
+    border-radius: 50%;
+
+}
+.active {
+    background-color: blue;
+    background-color: #e8f1fa;
+    border-radius: 5px;
+}
+.emailContentLeft,
+.emailContentRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.emailContentName img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.emailContentName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.emailContentNameText{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.emailSub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-transform: capitalize;
+}
+.emailSubStar {
+    color: #FE9431;
+}
+.emailSub span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.emailMessage,
+.emailDocument,
+.emailTime {
+    color: #adb5bd;
+    font-size: 1rem;
+    font-weight: 600;
+}

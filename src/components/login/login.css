@@ -1,0 +1,21 @@
+.forgetPassword {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.forgetPassword p {
+    color: #1E74FD;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.registerInputCheckbox {
+    display: flex;
+}
+.loginRegisterText {
+    text-decoration: none;
+    color: #1E74FD;
+    margin-left: 5px;
+
+}
